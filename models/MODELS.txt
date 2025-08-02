@@ -1,0 +1,15 @@
+Model
+1.) Listing(place-apartment, flat, house, villa, hotel)
+    -title --string
+    -description -- string
+    -image   -- string  (url for ease )
+    -price -- number
+    -location -- string
+    -country -- string
+
+2.) Review()
+    - comment -- string
+    - rating(1-5) -- number
+    - createdAt -- date, time
+
+3.) User
