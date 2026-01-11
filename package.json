@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "22.13.1"
+    "node": ">=18 <=20"
   },
   "name": "majorproject",
   "version": "1.0.0",
@@ -28,7 +28,8 @@
     "express-session": "^1.18.2",
     "joi": "^17.13.3",
     "method-override": "^3.0.0",
-    "mongoose": "^8.10.1",
+    "mongodb": "^6.21.0",
+    "mongoose": "^8.21.0",
     "multer": "^2.0.2",
     "multer-storage-cloudinary": "^4.0.0",
     "passport": "^0.7.0",
